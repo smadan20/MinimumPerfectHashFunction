@@ -18,22 +18,22 @@ In main.cpp, specify the input file containing line-separated keys.
 Optionally, specify the input file containing line-separated alien keys as well.
 
 To create a MPHF object b:
-	> MPHF b(&keys, 1, 3);
+> MPHF b(&keys, 1, 3);
 
 To construct the MPHF on b:
-	> vector<bit_vector> bv = b.MPHF_construct();
+> vector<bit_vector> bv = b.MPHF_construct();
 
 To lookup a key in b:
-	> uint64_t result = b.lookup("key");
+> uint64_t result = b.lookup("key");
 
 To create a standard hash table (unordered map) for b:
-	> unordered_map<string, uint64_t> basic_hash = b.basic_hash(keys);
+> unordered_map<string, uint64_t> basic_hash = b.basic_hash(keys);
 
 To lookup a key in a standard hash table for b:
-	> uint64_t basic_lookup = b.basic_hash_lookup("key", basic_hash);
+> uint64_t basic_lookup = b.basic_hash_lookup("key", basic_hash);
 
 To get the mphf data structure size for b:
-	> uint64_t size = b.data_struct_size();
+> uint64_t size = b.data_struct_size();
 
 
 
