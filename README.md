@@ -17,7 +17,7 @@ Enter the following in command line/terminal
 In main.cpp, specify the input file containing line-separated keys.
 Optionally, specify the input file containing line-separated alien keys as well.
 
-To create a MPHF object b:
+To create a MPHF object b (input reference to keys, gamma, and last):
 > MPHF b(&keys, 1, 3);
 
 To construct the MPHF on b:
