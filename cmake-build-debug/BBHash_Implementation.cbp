@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BBHash_Implementation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Downloads\;CMake Files\..\..\Downloads\vcpkg\;CMake Files\..\..\Downloads\vcpkg\packages\;CMake Files\..\..\Downloads\vcpkg\packages\xxhash_x64-osx\;CMake Files\..\..\Downloads\vcpkg\packages\xxhash_x64-osx\share\;CMake Files\..\..\Downloads\vcpkg\packages\xxhash_x64-osx\share\xxhash\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BBHash_Implementation">
+				<Option output="/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/BBHash_Implementation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madans2/Downloads/vcpkg/packages/xxhash_x64-osx/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 BBHash_Implementation"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BBHash_Implementation/fast">
+				<Option output="/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/BBHash_Implementation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/madans2/Downloads/vcpkg/packages/xxhash_x64-osx/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 BBHash_Implementation/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/madans2/CLionProjects/BBHash_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/madans2/CLionProjects/BBHash_Implementation/MPHF.cpp">
+			<Option target="BBHash_Implementation"/>
+		</Unit>
+		<Unit filename="/Users/madans2/CLionProjects/BBHash_Implementation/MPHF.h">
+			<Option target="BBHash_Implementation"/>
+		</Unit>
+		<Unit filename="/Users/madans2/CLionProjects/BBHash_Implementation/main.cpp">
+			<Option target="BBHash_Implementation"/>
+		</Unit>
+		<Unit filename="/Users/madans2/CLionProjects/BBHash_Implementation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/madans2/CLionProjects/BBHash_Implementation/../../Downloads/vcpkg/packages/xxhash_x64-osx/share/xxhash/xxHashConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\vcpkg\packages\xxhash_x64-osx\share\xxhash\"/>
+		</Unit>
+		<Unit filename="/Users/madans2/CLionProjects/BBHash_Implementation/../../Downloads/vcpkg/packages/xxhash_x64-osx/share/xxhash/xxHashConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\vcpkg\packages\xxhash_x64-osx\share\xxhash\"/>
+		</Unit>
+		<Unit filename="/Users/madans2/CLionProjects/BBHash_Implementation/../../Downloads/vcpkg/packages/xxhash_x64-osx/share/xxhash/xxHashTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\vcpkg\packages\xxhash_x64-osx\share\xxhash\"/>
+		</Unit>
+		<Unit filename="/Users/madans2/CLionProjects/BBHash_Implementation/../../Downloads/vcpkg/packages/xxhash_x64-osx/share/xxhash/xxHashTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\vcpkg\packages\xxhash_x64-osx\share\xxhash\"/>
+		</Unit>
+		<Unit filename="/Users/madans2/CLionProjects/BBHash_Implementation/../../Downloads/vcpkg/packages/xxhash_x64-osx/share/xxhash/xxHashTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\vcpkg\packages\xxhash_x64-osx\share\xxhash\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
