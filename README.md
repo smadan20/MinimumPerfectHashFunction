@@ -1,7 +1,7 @@
 # MinimumPerfectHashFunction
 
 ## CMSC858D Homework #2: Implementing a minimum perfect hash function
-**Implementation by: Sanna Madan**
+### Implementation by: Sanna Madan
 
 
 
