@@ -1,18 +1,18 @@
 # MinimumPerfectHashFunction
 
-CMSC858D Homework #2: Implementing a minimum perfect hash function
-Implementation by: Sanna Madan
+# CMSC858D Homework #2: Implementing a minimum perfect hash function
+# Implementation by: Sanna Madan
 
 
 
-Instructions for building:
+# Instructions for building:
 Enter the following in command line/terminal
 	make
 	./main
 
 
 
-Using the implementation:
+# Using the implementation:
 
 In main.cpp, specify the input file containing line-separated keys.
 Optionally, specify the input file containing line-separated alien keys as well.
@@ -37,5 +37,5 @@ To get the mphf data structure size for b:
 
 
 
-Citation:
+# Citation:
 	Limasset, A., Rizk, G., Chikhi, R., & Peterlongo, P. (2017). Fast and scalable minimal perfect hashing for massive key sets. arXiv preprint arXiv:1702.03154.
